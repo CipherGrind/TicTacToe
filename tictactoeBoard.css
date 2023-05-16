@@ -1,0 +1,135 @@
+body {
+    box-sizing: border-box;
+}
+
+.board {
+    width: 300px;
+    border: 2px solid black;
+}
+ 
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cell:hover {
+    background-color: aquamarine;
+    color: black;
+    width: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.js-container {
+    margin: auto;
+
+}
+
+.js-next-player {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.js-board {
+    margin: auto;
+ 
+}
+
+.js-winner {
+    margin: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.restartButton {
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border: 5px solid black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.restartButton:hover {
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    border: 5px solid black;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/* ++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++ */
+
+
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+    margin-top: 0px;
+    background-color: white;
+    height: 707px;
+}
+
+.text-box {
+    position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 37px;
+	font-weight: 900;
+	background-color: #000;
+	color: #fff;
+	display: block;
+    padding: 8px;
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h1:nth-child(2) {
+	position: absolute;
+	background-color: #fff;
+	color: #000;
+	clip-path: inset(-1% -1% 50% -1%);
+}
+
+
+
+
+
+
+
+
+#gradient {
+    height: 150px;
+    width: 200px;
+    background-color: beige; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, white, beige, pink);
+  }
